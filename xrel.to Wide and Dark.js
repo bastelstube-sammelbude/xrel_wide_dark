@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         xrel.to Wide and DARK
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.71
 // @description  Apply custom styles to xrel.to and show full text in dirname-truncated elements
 // @author       blAde
 // @match        https://www.xrel.to/*
@@ -222,6 +222,12 @@
         }
         div.sub_bar_active a:visited {
             color: #000000;
+        }
+        .eiTitleOdd {
+            background-color: #000000;
+        }
+        .categoryListEntryOdd {
+            background-color: #000000;
         }
 		/* from xrel advanced dark */
 
