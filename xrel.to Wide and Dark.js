@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         xrel.to Wide and DARK
 // @namespace    http://tampermonkey.net/
-// @version      0.71
+// @version      0.72
 // @description  Apply custom styles to xrel.to and show full text in dirname-truncated elements
 // @author       blAde
 // @match        https://www.xrel.to/*
@@ -280,10 +280,6 @@
 
 		.no-releases-msg {
 			color: #9f9f9f;
-		}
-
-		#middle_spawn .article_cat + .horiz_line + div {
-			background: #242424 !important;
 		}
 
 		#middle_spawn .horiz_line_dotted + div:not(.article_text):not(.comment_helpful_frame):not(.comment_links_frame) {
