@@ -1,13 +1,15 @@
 // ==UserScript==
 // @name         xrel.to Wide and DARK
-// @namespace    http://tampermonkey.net/
-// @version      0.72
+// @namespace    https://github.com/bastelstube-sammelbude/xrel_wide_dark
+// @version      0.73
 // @description  Apply custom styles to xrel.to and show full text in dirname-truncated elements
 // @author       blAde
 // @match        https://www.xrel.to/*
 // @match        https://xrel.to/*
 // @grant        GM_addStyle
 // @run-at       document-end
+// @downloadURL	 https://github.com/bastelstube-sammelbude/xrel_wide_dark/raw/master/xrel.to_Wide_and_Dark.user.js
+// @updateURL    https://github.com/bastelstube-sammelbude/xrel_wide_dark/raw/master/xrel.to_Wide_and_Dark.user.js
 // ==/UserScript==
 
 (function() {
