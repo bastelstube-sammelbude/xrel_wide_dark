@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         xrel.to Wide and DARK
 // @namespace    https://github.com/bastelstube-sammelbude/xrel_wide_dark
-// @version      0.73
+// @version      0.74
 // @description  Apply custom styles to xrel.to and show full text in dirname-truncated elements
 // @author       blAde
 // @match        https://www.xrel.to/*
@@ -231,7 +231,12 @@
         .categoryListEntryOdd {
             background-color: #000000;
         }
-		/* from xrel advanced dark */
+        .release_highlight {
+            color: #FFF;
+            background: #000 url(/static/img/bg/toprelease.jpg) repeat;
+        }
+
+        /* from xrel advanced dark */
 
 		.release_updater {
 			filter: invert(80%);

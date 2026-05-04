@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         xrel.to Wide
 // @namespace    https://github.com/bastelstube-sammelbude/xrel_wide_dark
-// @version      0.11
+// @version      0.12
 // @description  Apply custom styles to xrel.to and show full text in dirname-truncated elements
 // @author       blAde
 // @match        https://www.xrel.to/*
@@ -127,6 +127,10 @@
 		.article {
             width: 900px;
 		}
+        .release_highlight {
+            color: #FFF;
+            background: #000 url(/static/img/bg/toprelease.jpg) repeat;
+        }
     `;
 
     GM_addStyle(style);
