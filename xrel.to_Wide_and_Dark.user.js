@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         xrel.to Wide and DARK
 // @namespace    https://github.com/bastelstube-sammelbude/xrel_wide_dark
-// @version      0.74
+// @version      0.75
 // @description  Apply custom styles to xrel.to and show full text in dirname-truncated elements
 // @author       blAde
 // @match        https://www.xrel.to/*
@@ -146,6 +146,7 @@
         }
         .board_forum {
             width: 1150px;
+            background: #333232;
         }
         .mid_tab_bar {
             width: 1130px;
@@ -235,7 +236,9 @@
             color: #FFF;
             background: #000 url(/static/img/bg/toprelease.jpg) repeat;
         }
-
+        .board_icon {
+            filter: invert(80%);
+        }
         /* from xrel advanced dark */
 
 		.release_updater {
